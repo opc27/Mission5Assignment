@@ -20,3 +20,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centers the images horizontally */
+  gap: 20px; /* Adds space between images */
+  margin-top: 20px; /* Adds space below the title */
+}
+
+.image-container img {
+  width: 200px; /* Adjust the image size */
+  height: auto; /* Maintains aspect ratio */
+}
