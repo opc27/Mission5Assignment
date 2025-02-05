@@ -29,6 +29,6 @@ body {
 }
 
 .image-container img {
-  width: 200px; /* Adjust the image size */
+  width: 300px; /* Adjust the image size */
   height: auto; /* Maintains aspect ratio */
 }

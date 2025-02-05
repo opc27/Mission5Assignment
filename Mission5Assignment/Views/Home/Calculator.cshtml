@@ -1,0 +1,28 @@
+﻿<div class="text-center">
+    <h1>Welcome to the Tutoring Cost Calculator!</h1>
+    <p>This is where you can calculate how much I would charge to tutor you in baking. </p>
+
+    <!-- User inputs how many hours -->
+    <div>
+        <label for="hours">Number of Hours:</label>
+        <input type="number" id="hours" min="1" required>
+    </div>
+    <br/>
+    <div>
+        <label for="rate">Hourly Rate:</label>
+        <input type="text" id="rate" value="25" readonly> <!-- Fixed Rate -->
+    </div>
+    <br/>
+    <!--Button to calculate total -->
+    <div>
+        <button id="calculateBtn">Calculate Total</button>
+    </div>
+    <br/>
+    <!-- Displays total cost -->
+    <div>
+        <label for="total">Total Cost:</label>
+        <input type="text" id="total" readonly>
+    </div>
+</div>
+
+
